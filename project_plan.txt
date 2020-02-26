@@ -1,2 +1,50 @@
 my planning stage for this project
 
+1. create the prompts for user to choose as the following
+    1) view current balance
+    2) record a debit
+    3) record a credit
+    4) exit
+        user input must be a number between 1 and 4 anythoing else is 
+        invalid and some message should display letting user know to
+        choose again
+
+option 1
+    user chooses view current balance 
+        check to see if user has any information stored
+            if user does have a balance output that info
+                break out of this option
+    initial prompt to choose is given
+
+option 2
+    user chooses debit 
+        user input recorded as string- check if an input can be coverted 
+        float at the same time if not
+            input needs to be converted to float
+                this debit cannot be make balance negative
+                    if user inputs an amount greater than balance
+                        user is given a prompt stating this amount
+                            exceeds balance and to choose a different amount 
+                                prompt user for new amount
+                                information is recorded in memory or database
+                                    some message is printed out saying everything has 
+                                        been completed
+                        b                   break out of this option
+    initial prompt to choose is given
+
+        
+
+option 3
+    user chooses to credit
+        input is recorded as string and needs to be converted to float
+            input is recorded and stored in memory or database
+                prompt given saying credit was completed
+                    break 
+    initial prompt to choose is given 
+
+option 4
+    user chooses exit as their option
+        time delay
+            prompt given to user awknoledging their request
+                exit and close
+        
