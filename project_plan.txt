@@ -29,7 +29,7 @@ option 2
                                 information is recorded in memory or database
                                     some message is printed out saying everything has 
                                         been completed
-                        b                   break out of this option
+                                           break out of this option
     initial prompt to choose is given
 
         
