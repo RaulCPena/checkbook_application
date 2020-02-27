@@ -9,7 +9,8 @@ options =(
     "1) view your current balance\n"
     "2) record a debit (withdrawal)\n"
     "3 record a credit (deposit)\n"
-    "4) exit\n\n"
+    "4) see history of all transactions\n"
+    "5) exit\n\n"
     "Enter your choice: "
 )
 
@@ -22,7 +23,7 @@ while True:
         with open("check_book.txt", "r") as f:
             fl = f.readlines()
             for line in fl:
-                balance = balance + float(line)
+                bwalance = balance + float(line)
             print(f"Your balance is : ${round(balance, 2)}")
             choice = input(options)
     
@@ -44,6 +45,13 @@ while True:
             choice = input(options)
     
     if choice == "4":
+        with open("check_book.txt") as f:
+            file_contents = f.read()
+            print(file_contents)
+            choice = input(options)
+              
+    
+    if choice == "5":
         time.sleep(.4)
         break
            
