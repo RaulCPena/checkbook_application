@@ -1,6 +1,6 @@
 import time
 
-print("~~~~ Welcome to your terminal! ~~~~")
+print("💰💰💰 Welcome to your bank terminal! 💰💰💰~")
 time.sleep(.4)
 print("\n")
 
@@ -52,6 +52,7 @@ while True:
               
     
     if choice == "5":
+        print("Have a great day 👋👋")
         time.sleep(.4)
         break
            
