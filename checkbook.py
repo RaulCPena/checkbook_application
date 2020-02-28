@@ -8,7 +8,7 @@ options =(
     "What would you like to do? \n\n"
     "1) view your current balance\n"
     "2) record a debit (withdrawal)\n"
-    "3 record a credit (deposit)\n"
+    "3) record a credit (deposit)\n"
     "4) see history of all transactions\n"
     "5) exit\n\n"
     "Enter your choice: "
