@@ -5,7 +5,7 @@ my planning stage for this project
     2) record a debit
     3) record a credit
     4) exit
-        user input must be a number between 1 and 4 anythoing else is 
+        user input must be a number between 1 and 4 anything else is
         invalid and some message should display letting user know to
         choose again
 
@@ -18,7 +18,7 @@ option 1
 
 option 2
     user chooses debit 
-        user input recorded as string- check if an input can be coverted 
+        user input recorded as string-check if an input can be converted
         float at the same time if not
             input needs to be converted to float
                 this debit cannot be make balance negative
@@ -45,6 +45,6 @@ option 3
 option 4
     user chooses exit as their option
         time delay
-            prompt given to user awknoledging their request
+            prompt given to user acknowledging their request
                 exit and close
         
